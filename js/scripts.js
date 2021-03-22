@@ -41,11 +41,13 @@ Tasks
 //1
 var userNumber = Math.floor(Math.random() * 6 + 1);
 //console.log(userNumber);
+alert("Il tuo numero è: " + userNumber)
 document.getElementById("user-number").innerHTML = userNumber;
 
 //2
 var pcNumber = Math.floor(Math.random() * 6 + 1);
 //console.log(pcNumber);
+alert("Il numero del computer è: " + pcNumber)
 document.getElementById("pc-number").innerHTML = pcNumber;
 
 //3

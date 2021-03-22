@@ -1,0 +1,39 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* SECTION */
+.my-app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(60deg, #083af1, #8298e6);
+}
+
+.main-content {
+    width: 50%;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(150, 139, 142, 0.7);
+}
+
+.main-content div:not(:last-child),
+.main-content h1 {
+    margin-bottom: 2rem;
+}
+
+.main-content span,
+#result {
+    font-weight: bold;
+    font-size: 20px;
+}

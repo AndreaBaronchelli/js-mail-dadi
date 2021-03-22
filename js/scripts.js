@@ -13,7 +13,7 @@ var emailList = ["pinco@gmail.com", "pallino@gmail.com", "giancarlo@gmail.com", 
 //console.log(emailList);
 
 //2
-var userMail = prompt("Inserisci la tua email");
+var userMail = prompt("Inserisci la tua email").toLowerCase();
 //console.log(userMail);
 
 //3
@@ -27,3 +27,13 @@ for(var i = 0; i < emailList.length; i++) {
 if(i >= emailList.length) {
     alert("Accesso Negato")
 }
+
+/**************************************************
+ * Dice Roller
+ **************************************************/
+/*
+Tasks 
+1 - Generare numero random da 1 a 6 per l'utente
+2 - Generare numero random da 1 a 6 per il computer
+3 - 
+*/
